@@ -1,29 +1,55 @@
 import java.util.Arrays;
 import java.util.Random;
-
+import java.util.Scanner;
 public class App {
+    static Scanner tec = new Scanner(System.in);
     public static void main(String[] args) {
-
+        System.out.println("Bienvenido a la calculadora papu");
     }
+
 
     // Suma de dos números
     public static int suma(int a, int b) {
-        return 0;
+        System.out.println("Ingrese un numero para sumar");
+        a= tec.nextInt();
+        System.out.println("Ingrese un segundo numero para sumar");
+        b= tec.nextInt();
+        int suma= (a+b);
+        System.out.print("La suma de los numeros es:");
+        return suma;
     }
 
     // Resta de dos números
     public static int resta(int a, int b) {
-        return 0;
+        System.out.println("Ingrese un numero para restar");
+        a= tec.nextInt();
+        System.out.println("Ingrese un segundo numero para restar");
+        b= tec.nextInt();
+        int resta= (a-b);
+        System.out.print("La resta de los numeros es:");
+        return resta;
     }
 
     // Multiplicación de dos números
     public static int multiplicacion(int a, int b) {
-        return 0;
+        System.out.println("Ingrese un numero para multiplicar");
+        a= tec.nextInt();
+        System.out.println("Ingrese un segundo numero para multiplicar");
+        b= tec.nextInt();
+        int multiplicacion= (a*b);
+        System.out.print("La multiplicacion de los numeros es:");
+        return multiplicacion;
     }
 
     // División de dos números
     public static double division(int a, int b) {
-        return (double) 2 / 2;
+        System.out.println("Ingrese un numero para dividir");
+        a= tec.nextInt();
+        System.out.println("Ingrese un segundo numero para dividir");
+        b= tec.nextInt();
+        double division= (a/b);
+        System.out.print("La division de los numeros es:");
+        return division;
     }
 
     // Máximo de dos números
