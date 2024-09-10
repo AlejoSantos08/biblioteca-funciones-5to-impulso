@@ -1,64 +1,38 @@
 import java.util.Arrays;
 import java.util.Random;
-import java.util.Scanner;
+
 public class App {
-    static Scanner tec = new Scanner(System.in);
     public static void main(String[] args) {
-        System.out.println("Bienvenido a la calculadora papu");
+
     }
-
-
+    int resultadosuma = suma (3,5);
     // Suma de dos números
-    public static int suma(int a, int b) {
-        System.out.println("Ingrese un numero para sumar");
-        a= tec.nextInt();
-        System.out.println("Ingrese un segundo numero para sumar");
-        b= tec.nextInt();
-        int suma= (a+b);
-        System.out.print("La suma de los numeros es:");
-        return suma;
+    public static int suma (int a, int b) {
+        return (a+b);
     }
-
+    int resultadoresta = resta(3,5);
     // Resta de dos números
     public static int resta(int a, int b) {
-        System.out.println("Ingrese un numero para restar");
-        a= tec.nextInt();
-        System.out.println("Ingrese un segundo numero para restar");
-        b= tec.nextInt();
-        int resta= (a-b);
-        System.out.print("La resta de los numeros es:");
-        return resta;
+        return (a-b);
     }
-
+    int resultadomultiplicacion = multiplicacion (3,5);
     // Multiplicación de dos números
-    public static int multiplicacion(int a, int b) {
-        System.out.println("Ingrese un numero para multiplicar");
-        a= tec.nextInt();
-        System.out.println("Ingrese un segundo numero para multiplicar");
-        b= tec.nextInt();
-        int multiplicacion= (a*b);
-        System.out.print("La multiplicacion de los numeros es:");
-        return multiplicacion;
+    public static int multiplicacion (int a, int b) {
+        return (a*b);
     }
-
+    double resultadodivision = division (3,5);
     // División de dos números
-    public static double division(int a, int b) {
-        System.out.println("Ingrese un numero para dividir");
-        a= tec.nextInt();
-        System.out.println("Ingrese un segundo numero para dividir");
-        b= tec.nextInt();
-        double division= (a/b);
-        System.out.print("La division de los numeros es:");
-        return division;
+    public static double division (int a, int b) {
+        return (a/b);
     }
-
+    int resultadomax = max (3,5);
     // Máximo de dos números
-    public static int max(int a, int b) {
-        return 5;
+    public static int max (int a, int b) {
+        return a>b ? a:b;
     }
 
     // Mínimo de dos números
-    public static int min(int a, int b) {
+    public static int min (int a, int b) {
         return 3;
     }
 
