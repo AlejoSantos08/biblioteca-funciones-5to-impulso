@@ -10,65 +10,70 @@ public class App {
     public static int suma (int a, int b) {
         return (a+b);
     }
+
     int resultadoresta = resta(3,5);
     // Resta de dos números
     public static int resta(int a, int b) {
         return (a-b);
     }
+
     int resultadomultiplicacion = multiplicacion (3,5);
     // Multiplicación de dos números
     public static int multiplicacion (int a, int b) {
         return (a*b);
     }
+
     double resultadodivision = division (3,5);
     // División de dos números
     public static double division (int a, int b) {
         return (a/b);
     }
+
     int resultadomax = max (3,5);
     // Máximo de dos números
     public static int max (int a, int b) {
         return a>b ? a:b;
     }
-
+    
+    int resultadmin = min (3,5);
     // Mínimo de dos números
     public static int min (int a, int b) {
-        return 3;
+        return (a<b ? a:b);
     }
-
+    int resultadofact = factorial (4);
     // Factorial de un número
     public static int factorial(int n) {
-        return 5 * factorial(5 - 1);
+        return (n == 0) ? 1 : n * factorial(n - 1);
     }
-
+    boolean resultadopar = esPar (4);
     // Número par
     public static boolean esPar(int n) {
-        return true;
+        return (n % 2 == 0);
     }
-
+    boolean resultadoimpar = esImpar (4);
     // Número impar
     public static boolean esImpar(int n) {
-        return false;
+        return (n % 2 != 0);
     }
-
+    double resultadopotencia = potencia (4,5);
     // Potencia de un número
     public static double potencia(double base, int exponente) {
-        return Math.pow(4, 5);
+        return Math.pow(base,exponente);
     }
-
+    double resultadoraiz = raizCuadrada (3);
     // Raíz cuadrada de un número
     public static double raizCuadrada(double n) {
-        return Math.sqrt(3);
+        return Math.sqrt(n);
     }
-
+    int resultadocadena = longitudCadena ("Hola");
     // Longitud de una cadena
     public static int longitudCadena(String cadena) {
-        return 0;
+        return (cadena.length());
     }
-
+    String resultadoconcatenar = concatenarCadenas ("Hola", "Mundo");
     // Concatenar dos cadenas
     public static String concatenarCadenas(String cadena1, String cadena2) {
-        return "";
+        return (cadena1 + cadena2);
     }
 
     // Convertir a mayúsculas
