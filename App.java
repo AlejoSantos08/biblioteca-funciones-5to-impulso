@@ -75,28 +75,27 @@ public class App {
     public static String concatenarCadenas(String cadena1, String cadena2) {
         return (cadena1 + cadena2);
     }
-
+    String resultadoconvertirMayusculas = convertirMayusculas ("hola");
     // Convertir a mayúsculas
     public static String convertirMayusculas(String cadena) {
-        return "H";
+        return (cadena.toUpperCase());
     }
-
+    String resultadoconvertirMinusculas = convertirMinusculas ("HOLA");
     // Convertir a minúsculas
     public static String convertirMinusculas(String cadena) {
-        return "c";
+        return (cadena.toLowerCase());
     }
-
+    String resultadorevertir = revertirCadena ("Hola");
     // Revertir una cadena
     public static String revertirCadena(String cadena) {
-        return "";
+        return (cadena.reverse());
     }
-
+    String resultadocontarvoc = contarVocales ("Hola Mundo");
     // Contar vocales en una cadena
     public static int contarVocales(String cadena) {
-   
-        return 3;
+        return 1;
     }
-
+    int resultadocontpal = contarPalabras ("Hola Mundo");
     // Contar palabras en una cadena
     public static int contarPalabras(String cadena) {
         return 5;
