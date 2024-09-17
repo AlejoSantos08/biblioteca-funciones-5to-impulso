@@ -93,23 +93,22 @@ public class App {
     String resultadocontarvoc = contarVocales ("Hola Mundo");
     // Contar vocales en una cadena
     public static int contarVocales(String cadena) {
-        return 1;
+        return contarVocales(cadena);
     }
     int resultadocontpal = contarPalabras ("Hola Mundo");
     // Contar palabras en una cadena
     public static int contarPalabras(String cadena) {
-        return 5;
+        return contarPalabras(cadena);
     }
-
+    int resultadoarray = sumarArray(array[1]);
     // Sumar elementos de un array
     public static int sumarArray(int[] array) {
-        return 7;
+        return (array[1] + array[1]);
     }
-
+    int arraymaxresult = maxArray (array [5]);
     // Encontrar el máximo en un array
     public static int maxArray(int[] array) {
-      
-        return 3;
+        return math.max.maxArray[];
     }
 
     // Encontrar el mínimo en un array
